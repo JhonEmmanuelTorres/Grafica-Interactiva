@@ -1,0 +1,88 @@
+/* this code is made for me */
+
+
+/* import font from google  */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body { 
+  padding-top: 50px; /* necessary for navbar  */
+}
+
+/* External Links  */
+.buttonsImport {
+  padding: 8rem;
+}
+
+/* for image membres */
+.thumbnail h3, p {
+  text-align: center
+}
+
+/* design footer */
+footer {
+  margin-top: 3rem;
+  background-color: #222;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: white;
+}
+
+/* design footer */
+.footerRight {
+  padding-top: 2rem;
+}
+
+/* design footer */
+.footerLeft {
+  padding-bottom: 4rem;
+}
+
+/* media queries for line in the footer */
+@media only screen and (min-width: 481px) { /*  >= .col-md  */
+  
+  .footerLeft {
+    border-right: 1rem solid white;
+  }
+}
+
+@media only screen and (max-width: 480px) { /*  < .col-md  */
+  
+  .footerLeft {
+    border-bottom: 1rem solid white;
+  }
+}
+
+
+/* all */
+
+.showWithButtom li {
+  margin: 5px;
+  padding: 1em;
+}
+
+.well ul li {
+  font-size: 2em;
+}
+
+#reference li {
+  font-size: 120%;
+}
+
+#tableAttempts {
+  margin-bottom: 50px;
+}
+
+.downInformation {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.controversial p {
+  font-size: 2rem;
+  text-align: justify;
+
+}
