@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- special alert --> 
+  <link rel="stylesheet" type="text/css" href="alert/sweetalert.css">
+  <title>UN Laberinto</title>
+  
+</head>
+<body>
+ 
+  <header>
+    <nav class="#000000 black">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a class="brand-logo left">UN Laberinto</a>
+          <ul class="right">
+            <li><a href="about.html" class="waves-effect waves-light btn-large #263238 blue-grey darken-4 pulse">
+            Créditos y mas<i class="material-icons right">perm_identity</i></a></li>
+          </ul>
+      </div>  
+      </div>
+    </nav>
+  </header>
+  
+  
+  <section class='container'>
+    <div class="row">
+      <div class="col m6">
+        <h4>Instrucciones</h4>      
+        <ol>
+          <li>El objetivo del juego es pasar el laberinto en el menor tiempo posible. La meta esta demarcada con una estrella.</li>
+          <li>Inicialmente tu eres la volita roja que se encuentra en la parte inferior izquierda de el tablero.</li>
+          <li>La bolita se mueve con la flechas.</li>
+          <li>El juego empieza cuando tu oprimes cualquier flecha.</li>
+          <li>En la parte inferior se encuentra el score que corresponde a los segundos que te demoraste.</li>
+        </ol>  
+      </div>
+      <div class="col m6">
+        <h2 class="center">Tu mejor puntaje es:</h2>
+        <p id="showScore" class="card-panel hoverable center z-depth-5"></p>        
+      </div>
+    </div>   
+  </section>
+
+<!--  space for game -->
+  <section class="container">
+    <div class="row">   
+      <div class="col s10 offset-s1">
+        <div id="myGame" ></div>   
+      </div>
+    </div>    
+  </section>
+  
+  <footer class="page-footer #000000 black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Jhon Emmanuel Torres Toloza</h5>
+          <p class="grey-text text-lighten-4">Universidad Nacional de Colombia</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Gráfica Interactiva</h5>
+          <p class="white-text">Juego hecho con <a href="https://phaser.io">Phaser JS</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <p class="center">© 2014 Copyright Text</p>
+      </div>
+    </div>
+  </footer>
+  
+<!--  scripts -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <script src="alert/sweetalert.min.js"></script>
+  <script src="phaser.js"></script>  
+  <script src="game.js"></script>
+  
+</body>
+</html>

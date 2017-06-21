@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- special alert --> 
+  <link rel="stylesheet" type="text/css" href="alert/sweetalert.css">
+  <title>UN Laberinto</title>
+  
+</head>
+<body>
+  <header>
+    <nav class="#000000 black">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a class="brand-logo left">UN Laberinto</a>
+          <ul class="right">
+            <li><a href="index.html" class="waves-effect waves-light btn-large #263238 blue-grey darken-4 pulse">
+            Volver<i class="material-icons right">perm_identity</i></a></li>
+          </ul>
+      </div>  
+      </div>
+    </nav>
+  </header>
+  
+  <section class='container'>
+    <div class="row">
+      <div class="col m6 offset-m3">
+        <h4>Mapa del sitio</h4>      
+        <ol>
+          <li>Inicio</li>
+          <ol>
+            <li>Intrucciones</li>
+            <li>Mejor Puntaje</li>
+            <li>Tablero</li>
+          </ol>
+          <li>Créditos y mas</li>
+          <ol>
+            <li>Mapa del sitio</li>
+            <li>Librerias Usadas</li>
+            <li>Referencias</li>
+          </ol>
+          
+        </ol>
+       
+        <h4>Librerias Usadas</h4>
+        <ol>
+          <li><a href="http://materializecss.com/">Materializa CSS</a></li>
+          <li><a href="https://jquery.com/">jQuery</a></li>
+          <li><a href="https://phaser.io/">Phaser JS</a></li>
+          <li><a href="https://github.com/t4t5/sweetalert">Sweetalert</a></li>
+        </ol>        
+      
+        <h4>Referencias</h4>
+        <ol>
+          <li>Musica: <a href="https://www.youtube.com/watch?v=xczxi_49inE">Musica de suspenso</a> </li>
+          <li>Imagenes:</li>
+           <ol>
+            <li><a href="https://previews.123rf.com/images/vtorous/vtorous1003/vtorous100300038/6653025-Ilustraci-n-vectorial-de-laberinto-gris-Foto-de-archivo.jpg" target="_blank">Tablero</a></li> 
+           </ol>            
+        </ol>        
+      </div>
+
+    </div>   
+  </section>
+
+<!--  space for game -->
+  <section class="container">
+    <div class="row">   
+      <div class="col s10 offset-s1">
+        <div id="myGame"></div>   
+      </div>
+    </div>    
+  </section>
+  
+  <footer class="page-footer #000000 black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Jhon Emmanuel Torres Toloza</h5>
+          <p class="grey-text text-lighten-4">Universidad Nacional de Colombia</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Gráfica Interactiva</h5>
+          <p class="white-text">Juego hecho con <a href="https://phaser.io">Phaser JS</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <p class="center">© 2014 Copyright Text</p>
+      </div>
+    </div>
+  </footer>
+  
+<!--  scripts -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+  <script src="alert/sweetalert.min.js"></script>
+  <script src="phaser.js"></script>  
+  <script src="game.js"></script>
+  
+</body>
+</html>
